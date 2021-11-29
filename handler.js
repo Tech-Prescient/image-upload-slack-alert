@@ -46,8 +46,8 @@ module.exports.hello = async (event) => {
           },
           {
               type: "image",
-              // image_url: `https:${bucketName}.s3.amazonaws.com/${filePath}`,
-              image_url: filePath,
+              image_url: `https:${bucketName}.s3.amazonaws.com/${filePath}`,
+              // image_url: filePath,
               alt_text: "bot image"
           }
       ]
