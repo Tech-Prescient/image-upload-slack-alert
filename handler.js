@@ -1,7 +1,7 @@
 'use strict';
 const axios = require("axios");
 
-module.exports.hello = async (event) => {
+module.exports.slackAlert = async (event) => {
   try {
     console.log(`Event payload: ${JSON.stringify(event)}`);
 
